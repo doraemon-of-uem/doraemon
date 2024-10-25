@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to My Professional Portfolio!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      display: flex;
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQvSrOtMPUgVzMHrU7CxgKRxebgJg9gU6LCw&usqp=CAU');
+      background-size: cover;
+      color: #8d4c4c;
+    }
+    nav {
+      width: 220px;
+      padding: 20px;
+      background: rgba(31, 37, 145, 0.325);
+      box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+      transition: all 0.3s;
+    }
+    nav:hover {
+      transform: scale(1.02);
+    }
+    nav h2 {
+      text-align: center;
+      color: #2c82c3a2;
+      margin-bottom: 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+    }
+    nav button {
+      width: 100%;
+      background-color: #020f347a;
+      color: rgb(243, 236, 236);
+      border: none;
+      padding: 12px;
+      margin: 10px 0;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 16px;
+      transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    }
+    nav button:hover, nav button:focus {
+      background-color: #642188c7;
+      transform: translateY(-3px);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    }
+    .content {
+      flex: 1;
+      color: #000;
+      margin-left: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #1e0b6271; 
+      font-family: 'Montserrat', sans-serif;
+      font-size: 28px;
+      text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+    }
+    section {
+      display: none;
+      margin-bottom: 20px;
+    }
+    section.active {
+      display: block;
+    }
+    section h2 {
+      color: #006aff6e;
+      margin-bottom: 10px;
+      font-family: 'Montserrat', sans-serif;
+    }
+    section p {
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <h2>Menu</h2>
+  <button onclick="openSection('about-me')">About Me</button>
+  <button onclick="openSection('educational-background')">Educational Background</button>
+  <button onclick="openSection('experience')">Experience</button>
+  <button onclick="openSection('publications')">Publications</button>
+  <button onclick="openSection('awards')">Awards</button>
+  <button onclick="openSection('projects')">Projects</button>
+  <button onclick="openSection('research')">Research</button>
+  <button onclick="openSection('courses')">Courses Completed</button>
+  <button onclick="openSection('contact')">Contact</button>
+</nav>
+<div class="content">
+  <h1>Welcome to My Professional Portfolio!</h1>
+  <section id="about-me" class="active">
+    <h2>About Me</h2>
+    <p>Hello! I am Trina Shihi, a student, currently pursuing B. Tech in Computer Science, with specialisations in IOT, CS & BT, with a passion for coding, language learning, music, and drawing. My journey in technology began with a fascination for how software shapes our world, and I am constantly exploring new programming languages and frameworks to expand my skills.
+      <br><br>
+      In addition to coding, I love diving into different languages, whether spoken or programming. I find joy in the challenges and rewards that come with learning something new.
+      <br><br>
+      Music and drawing are also vital parts of my life. They allow me to express my creativity and find inspiration beyond the screen. Whether I'm strumming my guitar, composing a new tune, or sketching my thoughts, these activities help balance my technical pursuits.
+      <br><br>
+      I believe that technology, creativity, and communication go hand in hand, and I strive to bridge the gap between them in my projects. Join me as I continue to learn, grow, and share my journey in the exciting world of tech and art!
+    </p>
+  </section><section id="educational-background">
+    <h2>Educational Background</h2>
+    <p><b><h3>Completed Higher Secondary in 2024</h3></b>
+      <br>
+      <b>School Name:</b> Rahara Bhabanath Institution for Girls
+      <br>
+      <b>Subjects:</b> Mathematics, Physics, Chemistry, Statistics, Eng & Beng
+      <br><br>
+      <b><h3>Bachelor of Technology (B.Tech)</h3></b>
+      <br>
+      University Name: University of Engineering & Management, Kolkata (UEMK)
+      <br>
+      Current Year: 1st Year
+      <br>
+      Major: Computer Science
+      <br>
+      Specialisations: IOT, CS, BT
+    </p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <p><i><h6> Not available at this moment.</h6></i></p>
+  </section>
+
+  <section id="publications">
+    <h2>Paper/Patent Publications</h2>
+    <p><i><h6> Not available at this moment.</h6></i></p>
+  </section>
+
+  <section id="awards">
+    <h2>Awards and Achievements</h2>
+    <p><i><h6> Not available at this moment.</h6></i></p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p><i><h6> Not available at this moment.</h6></i></p>
+  </section>
+
+  <section id="research">
+    <h2>Research or Paper Publication</h2>
+    <p><i><h6> Not available at this moment.</h6></i></p>
+  </section>
+
+  <section id="courses">
+    <h2>Courses Completed</h2>
+    <p><i><h6> Not available at this moment.</h6></i></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Address</h2>
+    <p><a href="mailto:trinashihi@gmail.com">GMail</a></p>
+    <p><a href="https://www.linkedin.com/in/trina-shihi-74a1a8318">LinkedIn</a></p>
+  </section>
+</div>
+
+<script>
+  function openSection(sectionId) {
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => section.classList.remove('active'));
+    const activeSection = document.getElementById(sectionId);
+    activeSection.classList.add('active');
+  }
+</script>
+
+</body>
+</html>
